@@ -1,0 +1,17 @@
+{
+  "name": "masp-token",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "openzeppelin-solidity": "1.10.0"
+  },
+  "scripts": {
+    "test": "npm run migrate && truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "deploy": "truffle deploy"
+  }
+}
